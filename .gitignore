@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Node / client
+**/node_modules/
+job-tracker.client/dist/
+job-tracker.client/dist-ssr/
+*.local
+
+# User-uploaded runtime data (not project source)
+Job-Tracker.Server/Uploads/*
+!Job-Tracker.Server/Uploads/.gitkeep
+
+# Local Claude Code settings
+.claude/settings.local.json
+.claude/
+CLAUDE.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+appsettings.json

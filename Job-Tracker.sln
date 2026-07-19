@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "job-tracker.client", "job-tracker.client\job-tracker.client.esproj", "{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job-Tracker.Server", "Job-Tracker.Server\Job-Tracker.Server.csproj", "{BA475E44-B10D-43EA-A82D-BE9F47788554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93A5DDB-C1A0-52E2-A5C9-27B8304BD697}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BA475E44-B10D-43EA-A82D-BE9F47788554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA475E44-B10D-43EA-A82D-BE9F47788554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA475E44-B10D-43EA-A82D-BE9F47788554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA475E44-B10D-43EA-A82D-BE9F47788554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29ACED0-56BA-4F33-81DE-A44A056D5FE3}
+	EndGlobalSection
+EndGlobal
